@@ -3,46 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Уроки HTML</title>
+    <link rel="stylesheet" href="studu.css">
+    
+    <title>CSS стили</title>
     
 </head>
-<body style="background: rgba(106, 236, 106, 0.808);">
-    <headerstyle="text-align: center;
-        height: 100px;
-        width: 250px;
-        margin: auto;>
+<body >
+
+<div id="block-body">
+    <header>
+            <div class="logo">
+              <a href="study.html">
+                <span class="use">USE</span>-<span 
+                class="web">WEB</span>.ru
+              </a>
+              <p>Разработка это просто</p>
+
+            </div>
+            
+            <div class="top-menu">
+                <ul>
+                    <li><a href="a">Темы</a></li>
+                    <li><a href="a">Видеоуроки</a></li>
+                    <li><a href="a">Об авторе</a></li>
+                    <li><a href="a">Обраная связь</a></li>
+                </ul>
+            </div>
+                
+            <div class="block-top-auth">
+               <p><a href="a">Ввод</a></p>
+               <p><a href="a">Регистрация</a></p>   
+
+
+            </div>
+            
+
 
     </header>
-    
-    <div style="background-color: whitesmoke;
-        height: 100px;
-        width: 950px;
-        margin: 50px auto;
-        text-align: center;">  
-        <h2>МЕНЮШКА</h2>  
-           <!-- <table>
-            <thead">
-                <th>О нас</th>
-                <th>Скидки</th>
-                <th>Новости</th>
-                <th>Отзовы</th>
-                <th>Вакансии</th>
-                <th>Контакты</th>
-            </thead>
-        </table>-->
-     </div>
 
+
+</div>
+
+     
+     <div style="text-align: center;">
+        <h1>Самая вкусная пицца!</h1>
+    </div>
+     
 
     <div style="background-color: whitesmoke;
         height: 400px;
         width: 950px;
         margin: 50px auto;
         text-align: center;">
-        <video controls width="560" height="315">
-            <source src="https://youtu.be/8Q_9h6VKm9c" type="video./mp4">
-        </video> 
+     
+            
+            <p id="p1" style="padding-top: px;">Очень полезно под разговорчик.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8Q_9h6VKm9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
-        
+    </div>
+    <div style="background-color: whitesmoke;
+        height: 400px;
+        width: 950px;
+        margin: 50px auto;
+        text-align: center;">
+     <h1>Пообщаемся?</h1>
+        <img id="p2" 
+             src="https://i.ytimg.com/vi/C3iIb1i7qJY/sddefault.jpg"
+             width="px"
+             height="320px">
         
 
 
@@ -51,36 +79,26 @@
         height: 400px;
         width: 950px;
         margin: 50px auto;
+        font-size: 15px;
         text-align: center;">
-        <h1>Пообщаемся?</h1>
-        <img src="https://i.ytimg.com/vi/C3iIb1i7qJY/sddefault.jpg"
-              width="800px"
-              height="320px">
-        
-
-
-    </div>
-    <div style="background-color: whitesmoke;
-        height: 400px;
-        width: 950px;
-        margin: 50px auto;">
-        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
+        <p>"<b>At vero eos et accusamuset</b> iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
             <br>fgolestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est 
-            <br>laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+            <br>laborum et dolorum fuga. <a href="https://www.youtube.com/" target="_blank";>Youtube canal</a> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
             <br> cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
             <br> autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae 
             <br>non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis 
             <br>doloribus asperiores repellat."
         </p>
         <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
-                <br>fgolestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est 
-                <br>laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+                <br>fgolestias excepturi sint occaecati <a href="#p2">e non provident</a>,similique sunt in culpa qui officia <i>deserunt mollitia animi</i>, id est 
                 <br> cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+                <br> cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+                <br>laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, <em>cum soluta nobis est</em> eligendi
                 <br> autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae 
                 <br>non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis 
                 <br>doloribus asperiores repellat."
         </p>
-        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
+        <p>" <a href="#p1">At vero eos et</a>accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
             <br>fgolestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est 
             <br>laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
             <br> cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
@@ -105,6 +123,8 @@
             <li>Новости</li>
 
         </ul>
+        <!--<h2>Контакты</h2>
+        <a href="mailto:olga-1.03@mail.ru">@mail.ru</a>-->
 
     </footer>
 
